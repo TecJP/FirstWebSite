@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286 180">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #556270;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 30px;
+        font-family: Poppins-Regular, Poppins;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-1086 1176)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="286" height="180" transform="translate(1086 -1176)"/>
+    <text id="Arte_do_Evento" data-name="Arte do Evento" class="cls-2" transform="translate(1121 -1075)"><tspan x="0" y="0">Arte do Evento</tspan></text>
+  </g>
+</svg>

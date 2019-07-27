@@ -1,0 +1,342 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.15em;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.hr-black {
+  border-top: 2px solid #556270;
+}
+
+
+/*Navbar - Start*/
+.navbar-brand img {
+  width: 50px;
+  border: none;
+  height: 50px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  padding: .5rem;
+}
+
+.navbar-nav  {
+  color: #ffffff;
+  text-align: right;
+  padding: .5rem 1rem;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+nav.navbar.shrink {
+  min-height: 35px;
+  background-color:#556270;
+  transition: background-color .5s ease-in-out, padding, .5s ease-in-out;
+  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, .2), 0 4px 16px 0 rgba(0, 0, 0, .12);
+}
+
+nav.shrink a {
+  padding-top: .1rem;
+  padding-bottom: .1rem;
+}
+
+
+nav.shrink .navbar-toggler {
+  padding: .1rem .2rem;
+  margin: 8px 15px 8px 0;
+}
+
+.navbar-toggler:focus {
+  border-color: #F7C542;
+}
+
+.nav-item #h:hover {
+  color: #D43F36;
+  border-right: solid 3px #D43F36;
+}
+
+.nav-item #qs:hover {
+  color: #4585F4;
+  border-right: solid 3px #4585F4;
+}
+
+.nav-item #i:hover {
+  color: #099E57;
+  border-right: solid 3px #099E57;
+}
+
+.nav-item #fc:hover {
+  color: #F7C542;
+  border-right: solid 3px #F7C542;
+}
+
+.nav-item #e:hover {
+  color: #000000;
+  border-right: solid 3px #000000;
+}
+
+.nav-item #o:hover {
+  color: #000000;
+  border-right: solid 3px #000000;
+}
+
+/*Navbar - End*/
+
+/*Home - Start*/
+#home {
+  background: url(../img/_GDG_Itumbiara/_MG_3975.jpg) no-repeat fixed center center / cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hr-light {
+  border-top: 0.5px solid #ffffff;
+}
+
+#home .sec-overlay {
+  background: rgba(0, 0, 0, .6);
+  width: 100%;
+}
+
+.home-content {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.home-inner {
+  display: table;
+  height: calc(100vh - 50px);
+  padding-top: 80px;
+  width: 100%;
+}
+
+.home-title {
+  font-size: 72px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 15px;
+  margin-left: 0;
+  text-transform: uppercase;
+}
+
+.home-subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 38px;
+  text-transform: uppercase;
+}
+
+/*Home - End*/
+
+/*Quem Somos - Start*/
+#quem .section-header {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section #img_qs img{
+  width: auto;
+  height: auto;
+  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, .2), 0 4px 16px 0 rgba(0, 0, 0, .12);
+}
+
+#quem .section-description {
+  color: #000000;
+  text-align: justify;
+}
+
+/*Quem Somos - End*/
+
+/*Iniciativas - Start*/
+
+#iniciativas .section-header {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#iniciativas .section-description {
+  color: #000000;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.grey-text {
+  color: #757575;
+}
+
+
+#iniciativas a .icons {
+  max-width: 180px;
+  align-content: center;
+}
+
+#iniciativas a .talk {
+  max-width: 145px;
+  align-content: center;
+}
+
+/*Iniciativas - End*/
+
+/*Fale Conosco - Start*/
+#fale_conosco .section-header {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#fale_conosco .section-description {
+  color: #000000;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+/*Fale Conosco - End*/
+
+/*Agenda - Start*/
+
+#events .section-header {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#events .section-description {
+  color: #000000;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.events {
+  background: #eeeeee;
+}
+
+.carousel-control-next {
+  color: #556270;
+  border: solid 3px #556270;
+  border-radius: 50%;
+  position: static;
+  top: unset;
+  bottom: unset;
+  display: inline;
+  opacity: unset;
+  margin: 5px;
+  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, .2), 0 4px 16px 0 rgba(0, 0, 0, .12);
+}
+.carousel-control-prev {
+  color: #556270;
+  border: solid 3px #556270;
+  border-radius: 50%;
+  max-height: 40px;
+  position: static;
+  top: unset;
+  bottom: unset;
+  display: inline;
+  opacity: unset;
+  margin: 5px;
+  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, .2), 0 4px 16px 0 rgba(0, 0, 0, .12);
+}
+
+.carousel-control-prev:hover {
+  color: #fff;
+  background-color: #556270;
+}
+
+.carousel-control-next:hover {
+  color: #fff;
+  background-color: #556270;
+}
+
+.carousel-control-prev-icon {
+  background-image: unset;
+  max-width: 10px;
+}
+
+.carousel-control-next-icon {
+  background-image: unset;
+  max-width: 10px;
+}
+
+.btn-outline-secondary:hover {
+  border-color: #556270;
+}
+
+.carousel-inner .card {
+  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, .2), 0 4px 16px 0 rgba(0, 0, 0, .12);
+}
+
+.btn-outline-secondary:focus {
+  box-shadow: unset;
+}
+/*Agenda - End*/
+/* Organizers - Começo */
+
+#organizers .section-header {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#organizers .section-description {
+  color: #000000;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.avatar img {
+  max-width: 170px;
+  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, .2), 0 4px 16px 0 rgba(0, 0, 0, .12);
+}
+
+
+/* Organizers - Final */
+/* Footer - Começo */
+
+
+#page-footer {
+  background-color: #606060;
+  color: #ffffff;
+}
+
+.content-1 a {
+  color: #a2a2a2;
+}
+
+#page-footer .hr-white {
+  border: #fff 1px solid;
+}
+
+#footer-icons {
+  padding-bottom: 15px;
+}
+
+#footer-icons a .icons {
+  max-width: 40px;
+  padding-left: 4px;
+}
+
+/* Footer - Final */
+/* Media Queries - Começo*/
+
+@media only screen and (max-width: 500px) {
+  .home-title{
+    font-size: 300%;
+  }
+
+  
+}
+
+/* Media Queries - Final*/
